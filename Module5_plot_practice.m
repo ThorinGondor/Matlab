@@ -1,0 +1,10 @@
+x = -pi:pi/10:pi;
+y=tan(sin(x))-sin(tan(x));
+figure(1);
+plot(x,y,'-- blue o','LineWidth',1.5);
+hold on;
+a=-pi:pi/10:pi;
+b=-tan(sin(x))+sin(tan(x));
+plot(a,b,'- red *');
+grid on;
+legend('Õý','¸º');

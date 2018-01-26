@@ -1,0 +1,5 @@
+syms a b c d e f g h;
+MatA = [a,b;c,d];
+MatB = [e,f;g,h];
+disp(MatA*MatB);
+disp(MatA/MatB

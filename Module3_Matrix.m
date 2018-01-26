@@ -1,0 +1,10 @@
+%生成hilbert矩阵，hilbert矩阵是对称矩阵
+MatA=hilb(4)
+MatB=invhilb(5)
+%生成范德蒙矩阵
+MatC=vander([1;2;3;4])
+MatD=vander(1:0.5:3)
+%两个矩阵左右排合并
+MatE=[MatA,MatC]
+%两个矩阵上下排合并
+MatF=[MatA;MatC]

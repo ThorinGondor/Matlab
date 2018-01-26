@@ -1,0 +1,13 @@
+x=0:0.01*pi:pi*16;
+y0=abs(sin(x)).*(cos(x)+sqrt(-1)*sin(x));
+subplot(2,2,1);
+plot(x,y0,'LineWidth',2);
+y1=abs(sin(x/2)).*(cos(x)+sqrt(-1)*sin(x));
+subplot(2,2,2);
+plot(x,y1,'LineWidth',2);
+subplot(2,2,3);
+y3=abs(sin(x/3)).*(cos(x)+sqrt(-1)*sin(x));
+plot(x,y3,'LineWidth',2);
+subplot(2,2,4);
+y4=abs(sin(x/4)).*(cos(x)+sqrt(-1)*sin(x));
+plot(x,y4,'LineWidth',2);
